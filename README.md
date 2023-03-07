@@ -12,7 +12,7 @@ The visitors can view the home page - Volleyworld and Catalog with all photos. T
 ## Live Demo:
 
 ## What we can do?
-## Guest users -
+## Guest users 
 The application provides Guest users with the functionality to login, register, view the home page, Catalog (all publications), and the Details page. 
 ![02](https://user-images.githubusercontent.com/104487003/223408943-b49ed64b-fdc3-4781-a6ea-7a94fd954879.jpg)
 ![6](https://user-images.githubusercontent.com/104487003/223409995-3a8ad4e5-ad38-405d-bf2c-c49582923037.jpg)
@@ -20,7 +20,7 @@ The application provides Guest users with the functionality to login, register, 
 ![3](https://user-images.githubusercontent.com/104487003/223409058-a281ed54-80c8-4446-a6a0-13ac044e9ee3.jpg)
 ![4](https://user-images.githubusercontent.com/104487003/223409067-68ab1b33-52d2-4b52-bf0d-a634d28b1323.jpg)
 
-## Logged in Users -
+## Logged in Users 
 The application provides Users with the functionality to: 
 - View home page and all other pages with logged-in navigation
 - View Catalog 
