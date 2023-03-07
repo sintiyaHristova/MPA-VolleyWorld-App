@@ -1,5 +1,5 @@
 # MPA-VolleyWorld-App
-The visitors can view the home page - Volleyworld and Catalog with all photos. They can also register with a username, password, and address, which will allow them to create their publications, as well as share if interested (but only if the current user is not the author). Authors can edit or delete publications at any time. 
+The visitors can view the home page - Volleyworld and Catalog with all photos. They can also register with a email, username and password, which will allow them to create their publications, as well as share if interested (but only if the current user is not the author). Authors can edit or delete publications at any time. 
 
 ## Technologies:
 - JavaScript
@@ -13,7 +13,7 @@ The visitors can view the home page - Volleyworld and Catalog with all photos. T
 
 ## What we can do?
 ## Guest users 
-The application provides Guest users with the functionality to login, register, view the home page, Catalog (all publications), and the Details page. 
+The application provides Guest users with the functionality to login, register, view the home page, Catalog (all publications), and the details of the publications. 
 ![02](https://user-images.githubusercontent.com/104487003/223408943-b49ed64b-fdc3-4781-a6ea-7a94fd954879.jpg)
 ![6](https://user-images.githubusercontent.com/104487003/223409995-3a8ad4e5-ad38-405d-bf2c-c49582923037.jpg)
 ![7](https://user-images.githubusercontent.com/104487003/223409037-75dae683-2e00-4e64-925c-66c950332925.jpg)
@@ -25,8 +25,6 @@ The application provides Users with the functionality to:
 - View home page and all other pages with logged-in navigation
 - View Catalog 
 - Create new publication
-- Access publication details page
-- Share publication (if the current user is not the author of the publication) 
 - Delete or Edit publication depending on user's authentication (only for the author of the current publication) 
 ![4](https://user-images.githubusercontent.com/104487003/223410874-b91c7114-2884-42b3-a67c-65191a0ea84c.jpg)
 ![5](https://user-images.githubusercontent.com/104487003/223410883-70f0a347-1d00-498f-a70e-de9822ff8d52.jpg)
