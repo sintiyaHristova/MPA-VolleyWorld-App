@@ -1,0 +1,31 @@
+{
+  "name": "booktalk",
+  "version": "1.0.0",
+  "description": "Back-End Project App",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BDimitrova/BookTalk.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BDimitrova/BookTalk/issues"
+  },
+  "homepage": "https://github.com/BDimitrova/BookTalk#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cookie-parser": "^1.4.6",
+    "express": "^4.18.1",
+    "express-handlebars": "^6.0.6",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.4.5"
+  }
+}
