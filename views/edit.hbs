@@ -1,0 +1,26 @@
+{{#with photo}}
+<div class="editPage">
+    <h2>Edit photo</h2>
+   
+    <form method="post">
+        <p>
+            <input type="text" name="name" placeholder="Name" value="{{name}}">
+        </p>
+
+
+        <p>
+            <textarea type="text" name="description" placeholder="Description">{{description}}</textarea>
+        </p>
+
+        <p>
+            <input type="text" name="location" placeholder="Location" value="{{location}}">
+        </p>
+
+        <p>
+            <input type="text" name="image" placeholder="Link to image" value="{{image}}">
+        </p>
+     
+        <button class="edit-btn" type="submit">Edit Photo</button>
+    </form>
+</div>
+{{/with}}

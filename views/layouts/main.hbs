@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="/static/css/styles.css">
+  <link rel="icon" type="image/x-icon" href="/static/images/volleyball-306791_960_720.png">
+  <title>{{title}}</title>
+</head>
+
+
+
+<body>
+
+  {{#if errors}}
+  <div>
+    <div class="errorContainer">
+      {{#each errors}}
+      <p>{{this}}</p>
+      {{/each}}
+    </div>
+  </div>
+  {{/if}}
+
+ 
+  <header>
+    <nav class="navbar">
+      <div class="container">
+        <div class="logo">
+       
+          <a href="/">
+            <img width="50px" src="/static/images/volleyball-306791_960_720.png" alt="img1">
+          </a>
+         
+          <a class="home" href="/">
+            <i>VolleyWorld</i>
+          </a>
+        </div>
+
+        <div class="nav-links">
+          <ul class="nav-group">
+            <li class="nav-item">
+             
+              <a href="/catalog">
+                <i><img width="20px" src="/static/images/volleyball-306791_960_720.png" alt="img1"><b>Catalog</b></i>
+              </a>
+            </li>
+
+            {{#if user}}
+            
+            <li class="nav-item">
+             
+              <a href="/photo/create">
+                <i><img width="20px" src="/static/images/volleyball-306791_960_720.png" alt="img1"><b>Add Photo</b></i>
+              </a>
+            </li>
+
+            <li class="nav-item">
+             
+              <a href="/profile">
+                <i><img width="20px" src="/static/images/volleyball-306791_960_720.png" alt="img1"><b>My profile</b></i>
+              </a>
+            </li>
+
+            <li class="nav-item">
+           
+              <a href="/auth/logout">
+                <i><img width="20px" src="/static/images/volleyball-306791_960_720.png" alt="img1"><b>Logout</b></i>
+              </a>
+            </li>
+            {{else}}
+          
+            <li class="nav-item">
+          
+              <a href="/auth/login">
+                <i><img width="20px" src="/static/images/volleyball-306791_960_720.png" alt="img1"><b>Login</b></i>
+              </a>
+            </li>
+            <li class="nav-item">
+           
+              <a href="/auth/register">
+                <i><img width="20px" src="/static/images/volleyball-306791_960_720.png" alt="img1"><b>Register</b></i>
+              </a>
+            </li>
+            {{/if}}
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+
+  <main>{{{body}}}</main>
+
+
+  <div class="footer">
+    <span class="footer-section">
+     
+    </span>
+  </div>
+
+</body>
+
+</html>

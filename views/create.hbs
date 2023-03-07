@@ -1,0 +1,23 @@
+<div class="createPage">
+    <h2>Add photo</h2>
+
+    <form method="post">
+        <p>
+            <input type="text" name="name" placeholder="Volleyball player" value="{{photo.name}}">
+        </p>
+
+        <p>
+            <textarea type="text" name="description" placeholder="Description">{{photo.description}}</textarea>
+        </p>
+
+        <p>
+            <input type="text" name="location" placeholder="Location" value="{{photo.location}}">
+        </p>
+
+        <p>
+            <input type="text" name="image" placeholder="Link to image" value="{{photo.image}}">
+        </p>
+      
+        <button class="add-btn" type="submit">Add Photo</button>
+    </form>
+</div>
